@@ -1,0 +1,37 @@
+body {
+    font-family: monaco, "lucida console", monospace;
+}
+
+
+h1{
+    background: rgb(240, 189, 60);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+
+.topmenu{
+    display: inline;
+    margin: 5px;
+}
+
+#chefimage{
+    margin-left: 50px;
+    border: solid 5px;
+
+
+}
+
+span{
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    border: solid 5px rgb(1, 99, 1);
+    background: rgb(240, 189, 60);
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
