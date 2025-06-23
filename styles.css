@@ -14,15 +14,15 @@ h1{
 
 
 .topmenu{
-    display: inline;
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
     margin: 5px;
 }
 
 #chefimage{
     margin-left: 50px;
-    border: solid 5px;
-
-
+    border: solid 5px rgb(240, 189, 60);
 }
 
 span{
@@ -32,6 +32,27 @@ span{
     border: solid 5px rgb(1, 99, 1);
     background: rgb(240, 189, 60);
     padding: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+}
+
+.welcomecontent{
+    display: flex;
+    flex: 1 1 auto;
+    gap: 35px;
+    margin: 50px;
+    background: rgb(63, 148, 53);
+    padding: 15px;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#wcbodytext{
+    width: 350px;
+    background: rgb(54, 152, 176);
+    border: 5px solid rgb(240 189 60);
+    flex-basis: auto;
+    height:fit-content;
+    align-self: center;
+    padding: 8px;
+    text-align: center;   
 }
