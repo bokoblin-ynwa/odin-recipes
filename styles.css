@@ -9,43 +9,60 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-bottom: 10px;
 }
 .title{
-    font-size: 56px;
-}
-#chefimage{
-    margin-left: 50px;
-    border: solid 5px rgb(240, 189, 60);
-}
-
-span{
-    display: inline-block;
-    font-size: 13px;
-    text-align: center;
-    border: solid 5px rgb(1, 99, 1);
-    background: rgb(240, 189, 60);
-    padding: 5px;
+    font-size: 62px;
+    color: #2C3E50;
+    text-shadow: 1px 1px 2px #2C3E50;
+    margin: 25px;
 }
 
-.welcomecontent{
+.topmenu{
     display: flex;
-    flex: 1 1 auto;
-    gap: 35px;
-    margin: 50px;
-    background: rgb(63, 148, 53);
-    padding: 15px;
+    flex-direction: row;
     justify-content: space-evenly;
-    font-size: 18px;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#2C3E50;
+}
+.welcomecontent {
+    display: flex;
+    background: #2C3E50;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.welcomeimages {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    
+}
+.chefimage {
+    border: #4B8E4E 5px solid;
+    border-radius: 5px;
+}
+#chefimage1 {
+    display: flex;
+    align-self: start;
+}
+#chefimage2 {
+    display: flex;
+    align-self: end;
 }
 
-#wcbodytext{
-    width: 350px;
-    background: rgb(54, 152, 176);
-    border: 5px solid rgb(240 189 60);
-    flex-basis: auto;
-    height:fit-content;
-    align-self: center;
-    padding: 8px;
-    text-align: center;
-    width: 600px;
+.welcometext {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer {
+    background: #F1C40F;
 }
